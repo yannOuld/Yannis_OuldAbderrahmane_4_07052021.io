@@ -1,0 +1,23 @@
+{
+  "name": "starting-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/style.css --style compressed",
+    "prefix": "postcss ./style.css --use autoprefixer -d ./prefixed",
+    "prebuild": "npm i",
+    "build": "prettier . -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yannOuld/Yannis_OuldAbderrahmane_4_07052021.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yannOuld/Yannis_OuldAbderrahmane_4_07052021.io/issues"
+  },
+  "homepage": "https://github.com/yannOuld/Yannis_OuldAbderrahmane_4_07052021.io#readme"
+}
