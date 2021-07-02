@@ -20,14 +20,7 @@ a:hover {
   cursor: pointer;
 }
 
-#page-loading-blocs-notifaction {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  z-index: 100000;
-  background: #ffffff url("img/pageload-spinner.gif") no-repeat center center;
-}
+
 
 .bloc {
   width: 100%;
@@ -514,16 +507,6 @@ button {
   box-shadow: none;
 }
 
-.scrollToTop {
-  width: 40px;
-  height: 40px;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  opacity: 0;
-  z-index: 500;
-  transition: all 0.3s ease-in-out;
-}
 
 .scrollToTop span {
   margin-top: 6px;
@@ -591,19 +574,7 @@ a[data-lightbox]:hover img {
   bottom: 5px;
 }
 
-.close-lightbox {
-  color: #fff;
-  font-size: 30px;
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  z-index: 20;
-  background: rgba(0, 0, 0, 0.5);
-  border: none;
-  line-height: 30px;
-  padding: 0 9px 5px;
-  opacity: 0.3;
-}
+
 
 .close-lightbox:hover,
 .next-lightbox:hover,
@@ -612,17 +583,6 @@ a[data-lightbox]:hover img {
   color: #fff;
 }
 
-.next-lightbox,
-.prev-lightbox {
-  font-size: 20px;
-  color: rgba(255, 255, 255, 0.9);
-  background: rgba(0, 0, 0, 0.5);
-  transition: all 0.2s ease-in-out;
-  position: absolute;
-  top: 45%;
-  z-index: 1;
-  opacity: 0.4;
-}
 
 .next-lightbox {
   padding: 6px 8px 1px 13px;
